@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selva University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/28285fcbd5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <section class="sub1-header">
+        <nav>
+            <a href="University.html"><img src="images/png.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="University.html">HOME</a></li>
+                    <li><a href="AboutUs.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="ContactUs.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Course</h1>
+    </section>
+
+    <!---------------- Course detail ---------------->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum vel itaque atque recusandae voluptatibus, suscipit culpa illo voluptatem voluptate accusantium?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate Taught</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis voluptatibus error culpa laudantium impedit deleniti accusantium ratione eaque, aut nesciunt?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate Research</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, unde! Exercitationem minima eaque quia dignissimos explicabo sunt maxime ea in.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ---------------facilities -------------------------         -->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="eduford_img/library.png">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt, laborum at molestias nam odit voluptatem magnam vero perspiciatis aperiam.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/basketball.png">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt, laborum at molestias nam odit voluptatem magnam vero perspiciatis aperiam.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="eduford_img/cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt, laborum at molestias nam odit voluptatem magnam vero perspiciatis aperiam.</p>
+            </div>
+        </div>
+    </section>
+
+
+  <!---------------- footer----------------------   -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat facilis et inventore odio laudantium corrupti officiis incidunt quis,laborum reprehenderit harum quae consequatur autem earum maiores sapiente,Impedit nesciunt sunt suscipit sit facere ab obcaecati similique nobis ratione, officiis quo.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-youtube"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+    
+    <!-- This is Java script code -->
+    <script>
+        var navlinks=document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0px";
+        }
+        function hideMenu(){
+            navlinks.style.left="-800px";
+        }
+    </script>
+</body>
+</html
